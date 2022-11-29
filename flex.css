@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main {
+    max-width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/tm-bg-3.jpeg);
+    padding: 20px;
+}
+.nav-box {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.logo {
+    padding: 0 10px;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 400;
+    
+}
+.logo h1 {
+    align-self: center;
+    padding: 0 5px;
+}
+
+.directions ul {
+    display: flex;
+   min-height: 60px;
+   list-style: none;
+   flex-wrap: wrap;
+   
+   
+}
+.directions li{
+    min-height: inherit;
+}
+.directions a{
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+   line-height: 60px;
+    display: inline-block;
+    min-height: inherit;
+    flex-basis: 50px;
+    flex-grow: 1
+    
+}
+.directions a:hover {
+    background-color: white;
+    color: cornflowerblue;
+}
+/* 
+-------------------------------------
+NAV 
+-----------------------------------------
+*/
+.parag {
+    color: white;
+    font-weight: 100;
+    line-height: 2;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.parag span {
+    font-size: 30px;
+    
+}
+.parag p {
+    font-size: 14px;
+}
+/* -----------------------------------------
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+----------------------------------------- */
+.section_box {
+    margin-top:20px ;
+}
+.photo {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    position: relative;
+    text-align: center;
+    
+   
+}
+
+.photo .item1 .item2 .item3 {
+   width: 100%;   
+    gap: 20px;
+    flex-basis: 300px;
+    flex-grow: 1;
+    
+   
+    
+}
+.photo .item1  p {
+    
+    position: relative;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    top: 130px;
+    text-transform: uppercase;
+    
+}.photo .item2 p {
+    
+    position: relative;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    top: 130px;
+    text-transform: uppercase;
+    
+}.photo .item3  p {
+    
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 400;
+    top: 130px;
+    text-transform: uppercase;
+    
+}
+
+
+
+
+.photo1 {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    position: relative;
+    text-align: center;
+    margin-top: -40px;
+   
+}
+
+.photo1 .item4 .item5 .item6 {
+   width: 100%;   
+    gap: 20px;
+    flex-basis: 300px;
+    flex-grow: 1;
+    
+   
+    
+}
+.photo1 .item4  p {
+    
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 400;
+    top: 130px;
+    text-transform: uppercase;
+    
+}
+.photo1 .item5  p {
+    
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 400;
+    top: 130px;
+    text-transform: uppercase;
+    
+}
+.photo1 .item6  p {
+    
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 400;
+    top: 130px;
+    text-transform: uppercase;
+    
+}
+.link_box {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.link_box a {
+    padding: 10px 15px 5px 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+.link_box a:hover {
+    background-color: cornflowerblue;
+    
+}
+.footer {
+    margin-top: 30px;
+    
+}
+.footer p {
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    color: #fff;
+}
